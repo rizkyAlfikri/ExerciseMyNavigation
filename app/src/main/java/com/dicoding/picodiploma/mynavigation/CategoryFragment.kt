@@ -34,7 +34,7 @@ class CategoryFragment : Fragment() {
             val  bundle = Bundle()
             bundle.putString(EXTRA_NAME, "Lifestyle")
             bundle.putLong(EXTRA_STOCK, 7)
-            view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment)
+            view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment, bundle)
         }
     }
 
